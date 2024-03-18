@@ -49,3 +49,12 @@ val saleList = listOf(
     Sale("70", "DSCREATION"),
     Sale("90", "CDCREATION")
 )
+
+data class Size(val size: String)
+val sizeList = listOf(
+    Size("S"),
+    Size("M"),
+    Size("L"),
+    Size("XL"),
+    Size("XXL")
+)

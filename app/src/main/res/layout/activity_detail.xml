@@ -153,13 +153,12 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@id/start" />
 
-                        <androidx.appcompat.widget.AppCompatImageView
-                            android:id="@+id/size"
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/size_recycler_view"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:src="@drawable/size"
-                            android:textColor="@color/black"
+                            android:orientation="horizontal"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/text10"/>
 
@@ -184,7 +183,7 @@
                             android:textSize="22sp"
                             android:textStyle="bold"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@id/size" />
+                            app:layout_constraintTop_toBottomOf="@id/size_recycler_view" />
 
                         <TextView
                             android:id="@+id/description"
