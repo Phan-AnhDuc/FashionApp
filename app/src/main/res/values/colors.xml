@@ -5,5 +5,5 @@
     <color name="grey">#FF8D8D91</color>
     <color name="blue">#CDE1F4</color>
     <color name="greyBlur">#FFEEEEEE</color>
-    <color name="tranparent">#00FFFFFF</color>
+    <color name="tranparent">#00000000</color>
 </resources>

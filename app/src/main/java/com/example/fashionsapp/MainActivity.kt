@@ -1,8 +1,11 @@
 package com.example.fashionsapp
 
+import android.app.Activity
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.fashionsapp.data.ItemFashion
@@ -26,6 +29,8 @@ class MainActivity : AppCompatActivity()
         fashionAdapter.setOnItemClickListener { fashion ->
             goToDetail(fashion)
         }
+
+        setTransparentStatusBar()
 
     }
 
@@ -56,6 +61,12 @@ class MainActivity : AppCompatActivity()
     {
         super.onDestroy()
         _binding = null
+    }
+
+    fun Activity.setTransparentStatusBar() {
+        window.decorView.systemUiVisibility =
+            View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+        window.statusBarColor = Color.TRANSPARENT
     }
 
 
