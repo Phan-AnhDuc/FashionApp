@@ -23,4 +23,9 @@
     <string name="vado_odelle_dress">Vado Odelle Dress</string>
     <string name="roller_rabbit">Roller Rabbit</string>
     <string name="s">S</string>
+    <string name="plus">+</string>
+    <string name="_1">1</string>
+    <string name="minus">-</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,16 +1,13 @@
-package com.example.fashionsapp
+package com.example.fashionsapp.adapter
 
-import android.content.Intent
-import android.os.Parcel
-import android.os.Parcelable
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.fashionsapp.R
 import com.example.fashionsapp.data.ItemFashion
 import com.example.fashionsapp.data.fashionsList
 import com.example.fashionsapp.databinding.ItemFashionsBinding
-import com.example.fashionsapp.databinding.ItemSaleBinding
 
 class AdapterFashion : RecyclerView.Adapter<AdapterFashion.MyViewHolder>() {
 

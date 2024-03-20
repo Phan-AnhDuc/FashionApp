@@ -1,9 +1,10 @@
-package com.example.fashionsapp
+package com.example.fashionsapp.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.example.fashionsapp.R
 import com.example.fashionsapp.data.Size
 import com.example.fashionsapp.data.sizeList
 import com.example.fashionsapp.databinding.ItemSizeBinding

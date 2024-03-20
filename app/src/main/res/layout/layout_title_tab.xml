@@ -7,9 +7,9 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/iv_icon"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/size_23"
-        android:layout_marginTop="@dimen/size_8"
-        app:srcCompat="@drawable/bg_tab_notification"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/home"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -23,37 +23,16 @@
         android:id="@+id/tv_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/size_5"
-        android:layout_marginTop="@dimen/size_5"
-        android:background="@drawable/bg_corner_20_red"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
         android:gravity="center"
         android:minWidth="18dp"
         android:padding="2dp"
-        android:text="1"
-        android:textColor="@color/white"
-        android:textSize="@dimen/text_size_10"
-        android:visibility="gone"
+        android:text="1fdhjhjfdjghdf"
+        android:textColor="@color/black"
+        android:textSize="10sp"
         app:layout_constraintStart_toEndOf="@+id/line"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tv_title"
-        style="@style/TextAppearance.Text.SemiBold"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/size_10"
-        android:layout_marginBottom="@dimen/size_8"
-        android:gravity="center"
-        android:maxEms="6"
-        android:paddingBottom="@dimen/size_5"
-        android:maxLines="2"
-        android:ems="8"
-        android:textColor="@color/text_selector_bar"
-        android:textSize="@dimen/text_size_12"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iv_icon">
-    </TextView>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
